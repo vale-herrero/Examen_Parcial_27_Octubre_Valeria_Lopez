@@ -29,17 +29,12 @@ def binaryToDecimal(n):
 tabla1 = crear_tabla(126)
 tabla2 = crear_tabla(126)
 
-
-for i in range(32,126):
+for i in range(32,126): 
     agregar(tabla1, chr(i), convert = False)
+print(tabla1)
 
 for j in range(32,126):
     agregar(tabla2, chr(j), convert = True)
+print(tabla2)
 
-letra='E'
-codification = tabla2[funcion_hash(ord(letra), len(tabla2))] 
-dec = binaryToDecimal(codification)
-caracter = tabla1[dec % len(tabla1)]
 
-print(codification)
-print(caracter)
