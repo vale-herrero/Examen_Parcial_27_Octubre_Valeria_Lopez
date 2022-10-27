@@ -14,4 +14,6 @@ class Alumno():
             print('El alumno no tiene una nota valida')
 
 alumno1= Alumno('Valeria', 8)
-alumno1.calificacion(3)
+alumno1.calificacion(8)
+alumno2=Alumno('Rodrigo', 9)
+alumno2.calificacion(9)
