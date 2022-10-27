@@ -88,7 +88,7 @@ def eliminar(polinomio, clave):
             polinomio.termino_mayor -=1
     return dato
 
-def obtener_valor(polinomio, termino):
+def encontrar_valor(polinomio, termino):
     aux= polinomio.termino_mayor
     while aux is not None and aux.info.termino > termino:   
         aux=aux.sig
