@@ -14,5 +14,8 @@ class Alumno():
             print('El alumno no tiene una nota valida')
     def __str__(self): return 'lo que quiero mostrar'
 
-alumno1= Alumno('Valeria', 8)
+
+
+alumno1 = Alumno('Valeria', 8)
 print(alumno1)
+print(alumno1.__dict__)
