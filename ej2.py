@@ -43,5 +43,5 @@ for i,numero in enumerate(lista):
     if lista[i] == 145:
         print(i)
     else:
-        print('-1')
+        print(-1)
 
