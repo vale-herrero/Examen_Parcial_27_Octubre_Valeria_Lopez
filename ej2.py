@@ -35,9 +35,13 @@ def mergesort(lista):
         resultado= merge(izquierda,derecha)
         return resultado
     
-#mergesort(lista)
+mergesort(lista)
+
+print('---------------------')
 
 for i,numero in enumerate(lista):
     if lista[i] == 145:
         print(i)
+    else:
+        print('-1')
 
